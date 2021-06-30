@@ -16,7 +16,7 @@ def helloSuperman():
     return "Hello Superman"
 
 
-#Create 3nd Route
+#Create 3nd Route-
 @app.route('/github', methods=['POST'])
 def getMessage():
     if request.headers['Content-Type'] == 'application/json':
